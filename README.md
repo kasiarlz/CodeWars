@@ -1,3 +1,3 @@
-Code wars exercises
+Code wars exercises answers
 
 
