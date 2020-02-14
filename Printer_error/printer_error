@@ -21,3 +21,12 @@
 
 # s="aaaxbbbbyyhwawiwjjjwwm"
 # error_printer(s) => "8/22"
+
+
+def printer_error(s):
+    count = 0
+    good = 'abcdefghijklm'
+    for character in s:
+        if character not in good:
+            count += 1  
+    return str(count) + '/' + str(len(s))
