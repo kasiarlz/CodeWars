@@ -7,3 +7,15 @@
 # Examples: spinWords( "Hey fellow warriors" ) => returns "Hey wollef sroirraw" 
 # spinWords( "This is a test") => returns "This is a test" spinWords( "This is another test" )=>
 # returns "This is rehtona test"
+
+
+def spin_words(sentence):
+    words = sentence.split()
+    lis = []
+    for character in words:
+        if len(character) >= 5:
+            lis.append(character[::-1])
+        else:
+            lis.append(character)
+            
+    return ' '.join(lis)
