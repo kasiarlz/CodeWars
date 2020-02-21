@@ -7,3 +7,11 @@
 # If the argument passed through is single digit or is already the maximum 
 # possible integer, your function should simply return it.
 
+
+def super_size(n):
+    string = str(n)
+    sort = sorted(string, reverse = True)
+    output = ''
+    for number in sort:
+        output = output + number
+    return int(output)
