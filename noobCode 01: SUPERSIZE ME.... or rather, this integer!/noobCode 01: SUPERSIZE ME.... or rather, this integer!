@@ -15,3 +15,5 @@ def super_size(n):
     for number in sort:
         output = output + number
     return int(output)
+
+# or quicker solution
