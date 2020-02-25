@@ -21,3 +21,9 @@
 # Second Task (puzzle):
 # Given a positive integer s, find the total number of solutions of the equation a + b + c = s, 
 # where a is 1-prime, b is 3-prime, and c is 7-prime.
+
+# Call this function puzzle(s).
+
+# Examples:
+# puzzle(138)  -->  1  because [2 + 8 + 128] is the only solution
+# puzzle(143)  -->  2  because [3 + 12 + 128] and [7 + 8 + 128] are the solutions
