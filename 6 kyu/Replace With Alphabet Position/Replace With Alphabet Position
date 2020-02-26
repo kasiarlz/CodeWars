@@ -19,3 +19,5 @@ def alphabet_position(text):
     text = text.lower()
     number = [letters[character] for character in text if character in letters]
     return ' '.join(number)
+
+# shorter version
