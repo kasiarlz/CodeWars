@@ -23,3 +23,11 @@
 #    [6, 10],
 #    [11, 15]
 # ] ); // => 9
+
+
+def sum_of_intervals(intervals):
+    numbers = []
+    for interval in intervals:
+        for num in range(interval[0],interval[1]):
+            numbers.append(num)
+    return len(set(numbers))
