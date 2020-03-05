@@ -10,3 +10,12 @@
 
 # zeros(12) = 2
 # # 12! = 479001600 --> 2 trailing zeros
+
+
+def zeros(n):
+    i = 5
+    zeros = 0
+    while n >= i:
+        zeros += n // i
+        i *= 5
+    return zeros
