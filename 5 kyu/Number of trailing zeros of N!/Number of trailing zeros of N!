@@ -19,3 +19,6 @@ def zeros(n):
         zeros += n // i
         i *= 5
     return zeros
+
+
+# quicker solution
