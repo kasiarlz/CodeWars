@@ -20,5 +20,8 @@ def zeros(n):
         i *= 5
     return zeros
 
-
 # quicker solution
+
+def zeros(n):
+  x = n/5
+  return x+zeros(x) if x else 0
