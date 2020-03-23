@@ -14,3 +14,11 @@
 
 def fillable(stock, merch, n):
   return stock.get(merch, 0) >= n
+
+# or this
+
+def fillable(stock, merch, n):
+    try:
+        return stock[merch]>=n
+    except:
+        return False
