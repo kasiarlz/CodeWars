@@ -10,3 +10,7 @@
 # otherwise it should return False.
 
 # Valid data will always be passed in and n will always be >= 1.
+
+
+def fillable(stock, merch, n):
+  return stock.get(merch, 0) >= n
