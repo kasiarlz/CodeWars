@@ -5,3 +5,8 @@
 # Write a function calculating distance between Point a and Point b.
 
 # Tests round answers to 6 decimal places.
+
+from math import hypot
+
+def distance_between_points(a, b):
+    return hypot(a.x - b.x, a.y - b.y)
