@@ -9,3 +9,7 @@
 # calculator(1, 2, '+') => 3
 # if the variables are not numbers or the sign does not belong to the list above a 
 # message "unknown value" must be returned.
+
+# Example:
+# calculator(1, 2, '$') # result will be "unknown value"
+# Good luck!
