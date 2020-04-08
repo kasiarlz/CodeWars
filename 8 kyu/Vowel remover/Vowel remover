@@ -12,3 +12,8 @@ def shortcut(s):
         if char not in vowels:
             word += char
     return word
+    
+    # or
+    
+    def shortcut(s):
+    return s.translate(None, 'aeiou')
