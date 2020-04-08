@@ -4,3 +4,11 @@
 # shortcut("codewars") # --> cdwrs
 # shortcut("goodbye")  # --> gdby
 # Don't worry about uppercase vowels.
+
+def shortcut(s):
+    word = ''
+    vowels = 'aeiou'  
+    for char in s:
+        if char not in vowels:
+            word += char
+    return word
