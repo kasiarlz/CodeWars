@@ -6,3 +6,12 @@
 #  returns a straight extrapolation of ppg per 48 minutes rounded to the nearest tenth. Return 0 if 0.
 
 # Examples:
+
+
+# nba_extrap(12, 20) # 28.8
+# nba_extrap(10, 10) # 48
+# nba_extrap(5, 17) # 14.1
+# nba_extrap(0, 0) # 0
+# Notes:
+# All inputs will be either be an integer or float.
+# Follow your dreams!
