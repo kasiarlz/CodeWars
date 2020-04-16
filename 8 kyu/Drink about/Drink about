@@ -11,3 +11,9 @@
 # Young under 21 old.
 # Adults have 21 or more.
 # Examples:
+
+# people_with_age_drink(13) == "drink toddy"
+# people_with_age_drink(17) == "drink coke"
+# people_with_age_drink(18) == "drink beer"
+# people_with_age_drink(20) == "drink beer"
+# people_with_age_drink(30) == "drink whisky"
