@@ -28,3 +28,7 @@ totalPrice = sum([
 ])
 
 # or
+
+
+sandwiches, salads, wraps, frenchFries = 4, 6, 5, 10
+totalPrice = 8.00 * sandwiches + 7.00 * salads + 6.5 * wraps + 1.2 * frenchFries
