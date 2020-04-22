@@ -26,3 +26,5 @@ totalPrice = sum([
     wraps * wrapPrice,
     frenchFries * frenchFriesPrice
 ])
+
+# or
