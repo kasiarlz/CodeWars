@@ -8,3 +8,9 @@
 # wrap	$6.50
 # french fries	$1.20
 # Create 4 variables to store the quantity of each type of food with the following names:
+
+# sandwiches
+# salads
+# wraps
+# frenchFries
+# Create a variable named totalPrice that finds the cost of all of the food.
