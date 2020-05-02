@@ -5,3 +5,9 @@
 # Unfortunattely for you, people weigh a lot this days, so how do you know if a ship if full of gold and not people?
 
 # You begin with writing a generic Ship class:
+
+# class Ship:
+#     def __init__(self, draft, crew):
+#         self.draft = draft
+#         self.crew = crew
+# Every time your spies see a new ship enter the dock, they will create a new ship object based on their observations:
