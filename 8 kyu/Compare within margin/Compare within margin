@@ -1,3 +1,5 @@
 # Create a function close_compare that accepts 3 parameters: a, b, and an optional margin. 
 # The function should return whether a is lower than, close to, or higher than b. a is "close to" b
 #  if margin is higher than or equal to the difference between a and b.
+
+# When a is lower than b, return -1.
