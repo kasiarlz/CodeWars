@@ -5,3 +5,5 @@
 # When a is lower than b, return -1.
 
 # When a is higher than b, return 1.
+
+# When a is close to b, return 0.
