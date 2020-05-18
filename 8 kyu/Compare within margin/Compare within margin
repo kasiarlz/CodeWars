@@ -3,3 +3,5 @@
 #  if margin is higher than or equal to the difference between a and b.
 
 # When a is lower than b, return -1.
+
+# When a is higher than b, return 1.
