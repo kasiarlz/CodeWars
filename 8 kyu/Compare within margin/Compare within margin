@@ -15,3 +15,5 @@
 #   and close_compare should return -1.
 
 # Assume: margin >= 0
+
+# Tip: Some languages have a way to make arguments optional.
