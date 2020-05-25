@@ -1,1 +1,2 @@
 # This is a spin off of my first kata. You are given a list of character sequences 
+# as a comma separated string. Write a function which returns another string containing
