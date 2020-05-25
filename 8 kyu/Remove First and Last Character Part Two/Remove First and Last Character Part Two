@@ -3,3 +3,7 @@
 # all the character sequences except the first and the last ones, separated by spaces. 
 # If the input string is empty, or the removal of the first and last items would cause 
 # the string to be empty, return a null value.
+
+
+def array(string):
+     return ' '.join(string.split(',')[1:-1]) or None
